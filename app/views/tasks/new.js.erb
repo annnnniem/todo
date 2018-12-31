@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
 m = $('#modal');
 m.html('<%= j(render partial: 'task_form', locals: {task: @task}) %>');
-$('#cancel').click(function(){
-	m.html('');
-})
+	$('#cancel').click(function(){
+		m.html('');
+	})
 });
