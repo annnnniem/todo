@@ -1,4 +1,9 @@
 $( document ).ready(function() {
-    alert( "ready!" );
-var m = $('#modal');
+    console.log( "ready!" );
+
+m = $('#modal');
+m.html('<%= j(render partial: 'task_form', locals: {task: @task}) %>');
+$('#cancel').click(function(){
+	m.html('');
+})
 });
