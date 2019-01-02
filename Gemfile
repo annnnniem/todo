@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.2'
 # gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'open-iconic-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -25,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap'
 gem  'bootstrap-datepicker-rails'
 gem 'simple_form'
+gem 'coffee-script', '~> 2.4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
