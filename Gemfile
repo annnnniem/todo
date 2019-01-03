@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap'
 gem  'bootstrap-datepicker-rails'
 gem 'simple_form'
+gem 'devise'
 gem 'coffee-script', '~> 2.4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
